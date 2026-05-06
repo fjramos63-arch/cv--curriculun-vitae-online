@@ -7,16 +7,17 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
-  color: #333;
+  color: #5a5a7a;
 }
 
 header {
-  background: #1a1a2e;
+  background: #f4e8d8;
   padding: 1rem 2rem;
   position: fixed;
   width: 100%;
   top: 0;
   z-index: 100;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 
 nav {
@@ -28,7 +29,7 @@ nav {
 }
 
 .logo {
-  color: #e94560;
+  color: #c88ba5;
   font-size: 1.5rem;
   font-weight: bold;
 }
@@ -40,18 +41,18 @@ nav {
 }
 
 .nav-links a {
-  color: #fff;
+  color: #5a5a7a;
   text-decoration: none;
   transition: color 0.3s;
 }
 
 .nav-links a:hover {
-  color: #e94560;
+  color: #c88ba5;
 }
 
 .hero {
-  background: linear-gradient(135deg, #1a1a2e, #16213e);
-  color: #fff;
+  background: linear-gradient(135deg, #f4e8d8, #e8d4c4);
+  color: #5a5a7a;
   text-align: center;
   padding: 10rem 2rem 6rem;
 }
@@ -59,16 +60,17 @@ nav {
 .hero h1 {
   font-size: 3rem;
   margin-bottom: 1rem;
+  color: #4a4a6a;
 }
 
 .hero p {
   font-size: 1.25rem;
   margin-bottom: 2rem;
-  opacity: 0.9;
+  opacity: 0.85;
 }
 
 .btn {
-  background: #e94560;
+  background: #a8c4b8;
   color: #fff;
   border: none;
   padding: 0.75rem 2rem;
@@ -79,18 +81,19 @@ nav {
 }
 
 .btn:hover {
-  background: #c73e54;
+  background: #8fb0a3;
 }
 
 .servicios {
   padding: 5rem 2rem;
   text-align: center;
-  background: #f5f5f5;
+  background: #faf5f0;
 }
 
 .servicios h2 {
   font-size: 2rem;
   margin-bottom: 3rem;
+  color: #4a4a6a;
 }
 
 .cards {
@@ -105,7 +108,7 @@ nav {
   background: #fff;
   padding: 2rem;
   border-radius: 10px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
   transition: transform 0.3s;
 }
 
@@ -114,18 +117,20 @@ nav {
 }
 
 .card h3 {
-  color: #1a1a2e;
+  color: #a8c4b8;
   margin-bottom: 1rem;
 }
 
 .contacto {
   padding: 5rem 2rem;
   text-align: center;
+  background: #faf5f0;
 }
 
 .contacto h2 {
   font-size: 2rem;
   margin-bottom: 2rem;
+  color: #4a4a6a;
 }
 
 form {
@@ -138,19 +143,20 @@ form {
 
 input, textarea {
   padding: 0.75rem;
-  border: 1px solid #ddd;
+  border: 1px solid #e0d5c9;
   border-radius: 5px;
   font-size: 1rem;
+  background: #fff;
 }
 
 input:focus, textarea:focus {
   outline: none;
-  border-color: #e94560;
+  border-color: #c88ba5;
 }
 
 footer {
-  background: #1a1a2e;
-  color: #fff;
+  background: #e8d4c4;
+  color: #5a5a7a;
   text-align: center;
   padding: 2rem;
 }
